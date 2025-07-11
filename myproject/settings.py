@@ -10,7 +10,7 @@ DEBUG = False
 
 # ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0']
 
-ALLOWED_HOSTS = [".onrender.com"]
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'corsheaders',
